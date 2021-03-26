@@ -1,0 +1,51 @@
+
+
+<div>
+    <div>
+        <div>
+            <div class="container" style="width:50%">
+
+
+ <form    (ngSubmit)="creatNewStudent()">
+                    <div>
+
+                        
+                        <label for="ID">Student ID</label>
+                        <input class="form-control" [(ngModel)]="student.id" type="text" name="id" >
+                        <small id="desHelp" class="form-text text-muted" ></small>
+
+
+
+                        <label for="Name">Student name</label>
+                        <input class="form-control" [(ngModel)]="student.name"type="text" name="name">
+                        <small id="desHelp" class="form-text text-muted" ></small>
+
+                        <label for="description">Email</label>
+                        <input class="form-control" [(ngModel)]="student.email"type="text" name="email">
+                        <small id="desHelp" class="form-text text-muted" ></small>
+
+                        <label for="description">student Bescription</label>
+                        <textarea class="form-control" [(ngModel)]="student.description" name="description" id="" cols="20" rows="4"></textarea>
+                        <small id="desHelp" class="form-text text-muted" ></small>
+                    </div>
+                    <br>
+                    <input type="submit" class="btn btn-primary" value="Enroll">
+                </form>
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </div>
+</div>
